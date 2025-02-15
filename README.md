@@ -1,6 +1,4 @@
-Below is the updated README file with the content modified as required.
 
----
 
 # AI-Powered Price Optimization Tool
 
@@ -15,7 +13,6 @@ An interactive web application that leverages machine learning to optimize produ
 - [Project Structure](#project-structure)
 - [Customization](#customization)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Overview
@@ -116,12 +113,7 @@ Contributions are welcome! To contribute:
 3. Commit your changes.
 4. Push the branch and open a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
 ## Contact
 
-For any questions or suggestions, please reach out to [sydney.abuto@gmail.com](mailto:sydney.abuto@gmail.com).
-
----
+For any questions or suggestions, please reach out to:
+sydney.abuto@gmail.com
