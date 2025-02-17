@@ -1,0 +1,105 @@
+/* Google AI Studio inspired styling */
+:root {
+    --background-color: #202124;
+    --text-color: #E8EAED;
+    --primary-color: #8AB4F8;
+    --secondary-color: #303134;
+    --border-color: #5F6368;
+    --success-color: #81C995;
+    --error-color: #F28B82;
+}
+
+/* Global styles */
+.stApp {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Google Sans', sans-serif;
+}
+
+/* Header styling */
+.main .block-container {
+    padding-top: 2rem;
+    max-width: 1000px;
+}
+
+h1, h2, h3 {
+    color: var(--text-color);
+    font-family: 'Google Sans', sans-serif;
+    font-weight: 500;
+}
+
+/* Card styling */
+.prediction-container, .loan-info {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+}
+
+/* Input fields styling */
+.stNumberInput, .stSelectbox {
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+}
+
+/* Button styling */
+.stButton > button {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    border: none;
+    border-radius: 24px;
+    padding: 0.5rem 1.5rem;
+    font-family: 'Google Sans', sans-serif;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: var(--primary-color);
+    opacity: 0.9;
+}
+
+/* Success/Error messages */
+.success-msg {
+    background-color: var(--success-color);
+    color: var(--background-color);
+    padding: 1rem;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.error-msg {
+    background-color: var(--error-color);
+    color: var(--background-color);
+    padding: 1rem;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+/* Sidebar styling */
+.css-1d391kg {
+    background-color: var(--secondary-color);
+}
+
+.css-1d391kg .block-container {
+    padding: 2rem 1rem;
+}
+
+/* File uploader styling */
+.uploadedFile {
+    background-color: var(--secondary-color);
+    border: 1px dashed var(--border-color);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+/* Dataframe styling */
+.dataframe {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-color);
+}
