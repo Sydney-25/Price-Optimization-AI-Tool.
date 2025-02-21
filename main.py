@@ -9,7 +9,7 @@ import os
 
 # Load the dataset.  Error handling added for file not found.
 try:
-    df = pd.read_csv('/content/price.csv') # Changed path to relative
+    df = pd.read_csv('price.csv') # Changed path to relative
 except FileNotFoundError:
     st.error("Error: price.csv not found.  Make sure the file is in the same directory as the script, or upload it to /content.")
     st.stop() # Stop execution if file is not found
