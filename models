@@ -1,5 +1,0 @@
-├── models
-│   ├── __init__.py
-│   ├── price_optimizer.py
-├── ...
-└── main.py
